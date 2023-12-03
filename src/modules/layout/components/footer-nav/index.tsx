@@ -57,17 +57,7 @@ const FooterNav = () => {
                         </Link>
                         {children && (
                           <ul className="grid grid-cols-1 ml-3 gap-2">
-                            {children &&
-                              children.map((child) => (
-                                <li key={child.id}>
-                                  <Link
-                                    className="hover:text-ui-fg-base"
-                                    href={`/${child.handle}`}
-                                  >
-                                    {child.name}
-                                  </Link>
-                                </li>
-                              ))}
+
                           </ul>
                         )}
                       </li>

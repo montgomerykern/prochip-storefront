@@ -1,6 +1,6 @@
 import { Button, Heading } from "@medusajs/ui"
 import InteractiveLink from "@modules/common/components/interactive-link"
-import { Github } from "@medusajs/icons"
+import { CursorArrowRays } from "@medusajs/icons"
 
 const Hero = () => {
   return (
@@ -11,22 +11,22 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            Ecommerce Starter Template
+            ProFinder Fishing
           </Heading>
           <Heading
             level="h2"
             className="text-3xl leading-10 text-ui-fg-subtle font-normal"
           >
-            Powered by Medusa and Next.js
+            Cutting Edge GPS Waypoint Data Chips
           </Heading>
         </span>
         <a
-          href="https://github.com/medusajs/nextjs-starter-medusa"
-          target="_blank"
+          href="http://localhost:8000/store"
+          target="_parent"
         >
           <Button variant="secondary">
-            View on GitHub
-            <Github />
+            Browse Our Store
+            <CursorArrowRays />
           </Button>
         </a>
       </div>
